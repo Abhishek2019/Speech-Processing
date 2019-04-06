@@ -1,0 +1,8 @@
+{
+    "/getData" :{
+      "target" : "http://127.0.0.1:2935",
+      "secure" : false,
+      "logLevel" : "debug",
+      "changeOrigin" : true
+  }
+  }
