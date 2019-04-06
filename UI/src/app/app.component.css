@@ -210,7 +210,14 @@ h1{
   }
   
   .new{
-    margin-left: -20px;
+    padding-top: 50px;
+    margin-left: -150px;
+    
+  }
+
+  .result{
+    padding-top: 50px;
+    margin-left: -150px;
     
   }
 
