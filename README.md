@@ -1,9 +1,9 @@
-# Speech Diarisation , Sentiment analysis
+# Speech Diarization , Sentiment analysis
 
 
 ## Getting Started
 
-For Speech Diarisation, files used from package:
+For Speech Diarization, files used from package:
 * [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - *A Python library for audio feature extraction, classification, segmentation and applications.*
  
 
