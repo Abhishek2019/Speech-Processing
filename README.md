@@ -52,9 +52,9 @@ http://localhost: 4200
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/31566305/55680485-998c3500-594c-11e9-854b-38cce7868518.png)
+![image](https://user-images.githubusercontent.com/31566305/55683443-7aa09980-5972-11e9-90bc-7452f77d6284.png)
 
-![image](https://user-images.githubusercontent.com/31566305/55680511-e708a200-594c-11e9-9f23-027da46c414f.png)
+![image](https://user-images.githubusercontent.com/31566305/55683452-a885de00-5972-11e9-9d07-32f766836a85.png)
 
 
 
