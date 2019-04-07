@@ -1,42 +1,42 @@
-<header class="v-header container">
+<!-- <header class="v-header container">
   <div class="fullscreen-video-wrap">
     
   </div>
   <div class="header-overlay"></div>
   <div class="header-content text-md-center">
-    <h1>SPEECH RECOGNITION</h1>
-    <h2>SPEECH SENTIMENT ANALYSIS</h2>
-    <!-- <p>Testing for Speech to Text and performing Sentiment Analysis</p> -->
-    <!-- <button class="btn-hover color-4">Read More</button> -->
+    <h1>SPEECH ANALYSIS</h1>
+  
   </div>
-</header>
 
-<div class="container">
-  <div class="row">
-
-    <div class="col 6">
-      <div class="choose">
-        <label for="file-upload" class="custom-file-upload btn-hover color-7 ">
-          <i class="fas fa-cloud-upload-alt"></i> Upload WAV File
-        </label>
-        <input id="file-upload" (change)="selectFile($event)" type="file"/>
-      </div>
+<div class="display">
+    <div class="container">
+        <div class="row">
+            <div class="col 6">
+              <div class="card cd">
+               <img class="card1" src="data:image/JPG;base64,{{imgOut}}"><br>
+              </div>
+            </div>
+            <div class="col 6">
+              <div class="card cd">
+                <img class="card1" src="data:image/JPG;base64,{{imgOut}}"><br>
+              </div>
+            </div>
+          </div>
     </div>
-    <div class="col 6">
-      <button class="btn-hover color-3 shift" (click)="sendString()"><i class="fas fa-check-circle"></i> GENERATE</button>
-    </div>
-
+    
   </div>
-</div>
+ 
+</header> -->
 
 
-<div class="contain" *ngFor="let item of arr">
+<!-- 
+<div class="contain" >
 
     <div class="row">
 
         <div class="col 6">
           <div class="card">
-            <img class="card1" src="data:image/JPG;base64,{{item.imgData}}"><br>
+            <img class="card1" src="data:image/JPG;base64,{{imgOut}}"><br>
 
             <h1>DIARIZATION</h1>
           </div>
@@ -62,7 +62,117 @@
         </div>
 
       </div>
+</div> -->
+
+
+
+<!-- <div class="container">
+  <div class="row">
+
+    <div class="col 6">
+      <div class="choose">
+        <label for="file-upload" class="custom-file-upload btn-hover color-7 ">
+          <i class="fas fa-cloud-upload-alt"></i> Upload WAV File
+        </label>
+        <input id="file-upload" (change)="selectFile($event)" type="file"/>
+      </div>
+    </div>
+    <div class="col 6">
+      <button class="btn-hover color-3 shift" (click)="sendString()"><i class="fas fa-check-circle"></i> GENERATE</button>
+    </div>
+
+  </div>
+</div> -->
+
+<div class="bodywrap">
+  <section>
+    <div class="wave"></div>
+  </section>
+
 </div>
+
+
 <br><br>
+<div class="content">
+  <h1 data-text="Text Recognition">SPEECH ANALYSIS</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col 6">
+        <div class="card cd1">
+          <img class="card1" src="data:image/JPG;base64,{{imgOut}}" onError="this.src='../assets/placeholder.png';" ><br>
+        </div>
+      </div>
+      <div class="col 6">
+        <div class="card cd2">
+          <div class="row">
+            <div class="col 2"></div>
+            <div class="col 8">
+              <div class="new">
+                  <h5>Extracted Text :</h5>{{orignalText}}
+              </div>
+              <br><br>
+              <div class="result">
+                <h5>sentiment score : </h5>{{score}}
+              </div>
 
 
+            </div>
+            <div class="col 2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+  
+      <div class="col 6">
+        <div class="choose">
+          <label for="file-upload" class="custom-file-upload btn-hover color-7 ">
+            <i class="fas fa-cloud-upload-alt"></i> Upload WAV File
+          </label>
+          <input id="file-upload" (change)="selectFile($event)" type="file"/>
+        </div>
+      </div>
+      <div class="col 6">
+        <button class="btn-hover color-3" (click)="sendString()"><i class="fas fa-check-circle"></i> GENERATE</button>
+      </div>
+  
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- 
+<div class="shift">
+  
+      <div id="showLeft">
+      
+  
+      <div class="choose">
+        <label for="file-upload" class="custom-file-upload btn-hover color-9 ">
+          <i class="fas fa-cloud-upload-alt"></i> Upload Image
+        </label>
+        <input id="file-upload" (change)="selectFile($event)" type="file"/>
+      </div>
+        
+       <div class="butext">
+        <button class = "buttonClass" type="button" (click)="sendString()">Extract Text</button>
+       </div>
+      </div>
+  
+      <div class="inputOutputArea">
+      
+      <div id="outputContainer">
+        <b>Orignal Text : {{ orignalText }} </b> <br>
+        <b>Current Text : {{ currentText }}</b><br>
+        <b>status : {{ status }}</b><br>
+        <b>accuracy : {{  accuracy  }}</b>
+        
+      </div>
+  
+      </div>
+  
+    </div> -->

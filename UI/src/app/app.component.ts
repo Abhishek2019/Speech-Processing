@@ -18,7 +18,7 @@ export class AppComponent {
   str: string;
   orignalText:any;
   score:any;
-
+  imgOut:any;
 
   constructor(http: Http,  private authService: AuthService) { }
   
@@ -59,7 +59,7 @@ export class AppComponent {
       this.arr = data;
       this.arr = Array.of(this.arr);
       console.log(this.arr[0]);
-
+      this.imgOut = data['imgData'];
       this.orignalText = data['orignalText'];
       this.score = data['Score'];
 
