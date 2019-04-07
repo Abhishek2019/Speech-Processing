@@ -11,6 +11,7 @@ For Speech Diarisation, files used from package:
 
 * Dependencies for api.py
 ```
+pip install numpy matplotlib scipy sklearn hmmlearn simplejson eyed3 pydub
 pip install Flask flask-restful SpeechRecognition
 pip install -U textblob
 ```
