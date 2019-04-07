@@ -4,7 +4,7 @@
 ## Getting Started
 
 For Speech Diarisation, files used from package:
-* [PyAydioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - *A Python library for audio feature extraction, classification, segmentation and applications.*
+* [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - *A Python library for audio feature extraction, classification, segmentation and applications.*
  
 
 ## Prerequisites
